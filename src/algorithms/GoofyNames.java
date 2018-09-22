@@ -24,14 +24,17 @@ public class GoofyNames {
 			String letters = name.substring(a, a + 1);
 			// 5. Use MODULO to set this variable to upper case for EVEN characters
 			// and lower case for ODD characters.
-			int NAME = Integer.parseInt(name);
-			if(a%a == 0) {
-					
-			}
-			else 
+			 int intname = Integer.parseInt(name);
+			 if(intname%intname == 0) {
+			 System.out.println(name.toUpperCase());
+			 }
+			 else {
+			 System.out.println(name.toLowerCase());
+			 }
 			// 6. ADD this String (containing 1 char) to the goofyName String
+			String newname = name + intname;
 		}
 		// 7. Use pop-up to show user their Goofy name
-		// JOptionPane.showMessageDialog(null, name);
+		// JOptionPane.showMessageDialog(null, newname);
 	}
 }
