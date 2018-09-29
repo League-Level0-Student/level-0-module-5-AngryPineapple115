@@ -13,7 +13,7 @@ public class EvilPolygonsChallenge {
 	public static void main(String[] args) {
 
 		// 1. Create a new Robot
-		Robot apple = new Robot();
+		Robot apple = new Robot(); 
 		// 2. Set the speed to 100
 		apple.setSpeed(100);
 		int colorChoice = JOptionPane.showOptionDialog(null, "hello", "title", JOptionPane.INFORMATION_MESSAGE,
