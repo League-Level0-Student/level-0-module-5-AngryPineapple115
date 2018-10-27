@@ -6,10 +6,11 @@ public class ForLoopGauntlet {
 		for (int a = 0; a < 101; a++) {
 			System.out.println(a);
 		}
+		// down
 		for (int b = 100; b < 1; b--) {
 			System.out.println(b);
 		}
-		for (int c = 0; c < 100; c++) {
+		for (int c = 0; c < 101; c++) {
 			if (c % 2 == 0) {
 				System.out.println(c);
 			}
@@ -28,31 +29,36 @@ public class ForLoopGauntlet {
 				System.out.println(e + " is odd.");
 			}
 		}
+		// down [all]
 		for (int f = 7; f < 111; f++) {
 			System.out.println(f);
 		}
 		for (int g = 2006; g < 12; g++) {
 			System.out.println("In " + g + " I was " + g + " years old.");
 		}
-		for (int h = 0; h < 9; h++) {
-			for (int ha = 0; ha < 2; ha++) {
-				System.out.print(h);
+		for (int h = 0; h < 3; h++) {
+			for (int ha = 0; ha < 3; ha++) {
+				System.out.println(h + " " + ha);
 			}
 		}
-		for (int i = 0; i < 3; i++) {
-			for (int ia = 0; ia < 3; ia++) {
-				System.out.println(ia);
+		for (int i = 0; i < 9; i += 3) {
+			for (int ia = 1; ia < 4; ia++) {
+				System.out.print(i + ia + " ");
 			}
+			System.out.println();
 		}
-		for (int j = 0; j < 10; j++) {
-			for (int ja = 0; ja < 10; ja++) {
-				System.out.println(ja);
+		for (int j = 0; j < 100; j += 10) {
+			for (int ja = 1; ja < 11; ja++) {
+				System.out.print(j + ja + " ");
+			}
+			System.out.println();
+		}
+		for (int k = 0; k < 21; k++) {
+			String kb = "*" + "*"
+			for (int ka = 0; ka < 1; ka += 5) {
+				System.out.print(kb);
 			}
 			
 		}
-		for (int k = 0; k < 6; k++) {
-			System.out.println(k);
-		}
 	}
-
 }
