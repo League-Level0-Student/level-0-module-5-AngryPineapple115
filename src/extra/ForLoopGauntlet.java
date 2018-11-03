@@ -6,7 +6,6 @@ public class ForLoopGauntlet {
 		for (int a = 0; a < 101; a++) {
 			System.out.println(a);
 		}
-		// down
 		for (int b = 100; b < 1; b--) {
 			System.out.println(b);
 		}
@@ -29,8 +28,7 @@ public class ForLoopGauntlet {
 				System.out.println(e + " is odd.");
 			}
 		}
-		// down [all]
-		for (int f = 7; f < 111; f++) {
+		for (int f = 0; f < 778; f += 7) {
 			System.out.println(f);
 		}
 		for (int g = 2006; g < 12; g++) {
@@ -53,12 +51,11 @@ public class ForLoopGauntlet {
 			}
 			System.out.println();
 		}
-		for (int k = 0; k < 21; k++) {
-			String kb = "*" + "*"
-			for (int ka = 0; ka < 1; ka += 5) {
-				System.out.print(kb);
+		for (int k = 1; k < 7; k++) {
+			for (int ka = 0; ka < k; ka++) {
+				System.out.print("* ");
 			}
-			
+			System.out.println();
 		}
 	}
 }
