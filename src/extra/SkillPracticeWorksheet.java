@@ -1,5 +1,7 @@
 package extra;
 
+import java.util.Random;
+
 import javax.swing.JOptionPane;
 
 public class SkillPracticeWorksheet {
@@ -16,6 +18,7 @@ public class SkillPracticeWorksheet {
 
 	static void skill1() {
 
+		System.out.println("4");
 		String dimes = JOptionPane.showInputDialog("How many Dimes do you have?");
 		int dimesmul = Integer.parseInt(dimes);
 		int dimescen = dimesmul * 10;
@@ -40,7 +43,14 @@ public class SkillPracticeWorksheet {
 
 	static void skill3() {
 
-		// random
+		Random gena = new Random();
+		int fir = gena.nextInt(11);
+		System.out.println(fir);
+		Random genb = new Random();
+		int sec = genb.nextInt(21);
+		System.out.println(sec);
+		int dif = fir - sec;
+		JOptionPane.showMessageDialog(null, "Difference: " + dif);
 
 	}
 
@@ -54,10 +64,14 @@ public class SkillPracticeWorksheet {
 		}
 
 		int cars = 2;
+		JOptionPane.showMessageDialog(null, cars);
 
 	}
 
 	static void skill5() {
+
+		String school = JOptionPane.showInputDialog("What is the name of your school?");
+		JOptionPane.showMessageDialog(null, school + " is a fantastic school!");
 
 	}
 }
