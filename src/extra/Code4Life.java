@@ -6,10 +6,7 @@ package extra;
  */
 
 import java.applet.AudioClip;
-import java.io.File;
-import javax.sound.sampled.AudioInputStream;
-import javax.sound.sampled.AudioSystem;
-import javax.sound.sampled.Clip;
+
 import javax.swing.JApplet;
 import javax.swing.JOptionPane;
 
@@ -29,6 +26,7 @@ public class Code4Life {
 			JOptionPane.showMessageDialog(null, "yay?");
 		}
 		// 4. If it is more than 5, call the method below to play the Batman theme song.
+		// {test}
 		else if (hours1 > 5) {
 			playBatmanTheme();
 		}
